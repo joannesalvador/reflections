@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+-- To prepare the repository for git
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+-- The working directory contains all of the files with the latest changes, while the staging area contains tha files and changes the user wants to commit to the repository. This makes it easier to separate changes per logical change.
