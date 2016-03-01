@@ -3,3 +3,19 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 -- The working directory contains all of the files with the latest changes, while the staging area contains tha files and changes the user wants to commit to the repository. This makes it easier to separate changes per logical change.
+
+How can you use the staging area to make sure you have one commit per logical change?
+-- By making sure all fixes in the staging area corresponds to a single logical change before committing
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-- I think branches could help in separating fixes, one branch for one fix. This way fixes would be resolved in a branch first before merging it to master.
+
+How do the diagrams help you visualize the branch structure?
+-- The diagram shows which commit in the master is the branch created from and where it merges again. It also shows how many branches there are.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-- All commits in the branch are now in master and can be reached via the master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-- Pro: faster merging than manually comparing ang merging files/commits
+-- Cons: still need manual intervention when the same code has been modified
